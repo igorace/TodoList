@@ -63,7 +63,7 @@ function addNewTodo(column: TodosColumn) {
         <template #item="{ element: todo }: { element: Todo }">
           <div class="todoItem">
             <div
-              class="todo flex p-4 border border-blue-600 mb-2 shadow-sm rounded"
+              class="todo flex p-4 border border-blue-600 mb-2 shadow-sm rounded items-center"
             >
               <span class="drag-handle pr-2 cursor-grab">⠿</span>
               <input
