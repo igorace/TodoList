@@ -3,6 +3,19 @@ import { nanoid } from "nanoid";
 import type { Todo, TodosColumn } from "@/types";
 import draggable from "vuedraggable";
 
+useHead({
+  title: "Todos App",
+  meta: [
+    { name: "description", content: "Simple Todo App that uses local storage" },
+    {
+      property: "og:description",
+      content: "Simple Todo App that uses local storage",
+    },
+    { property: "og:image", content: "/icons/todo_128x128.png" },
+    { name: "twitter:card", content: "summary_large_image" },
+  ],
+});
+
 const todoColumns = useLocalStorage<TodosColumn[]>("todos-app", [
   {
     id: nanoid(),
