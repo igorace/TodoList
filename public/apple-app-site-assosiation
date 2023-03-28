@@ -1,0 +1,11 @@
+{
+   "applinks": {
+       "apps": [],
+       "details": [
+           {
+               "appID": "https://friendly-starlight-bb9740.netlify.app/",
+               "paths": [ "" ]
+           }
+       ]
+   }
+}
